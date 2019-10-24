@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesSizeReader", "FilesSizeReader\FilesSizeReader.csproj", "{3CE269F3-7131-466C-A0BF-4E2AA7DF074A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{B4F1890B-FBF9-4DAB-90F8-5EA0891D9083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{49D9FE1C-98DE-40A2-ADEE-7BA8CF14A8CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3CE269F3-7131-466C-A0BF-4E2AA7DF074A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CE269F3-7131-466C-A0BF-4E2AA7DF074A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE269F3-7131-466C-A0BF-4E2AA7DF074A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F1890B-FBF9-4DAB-90F8-5EA0891D9083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F1890B-FBF9-4DAB-90F8-5EA0891D9083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F1890B-FBF9-4DAB-90F8-5EA0891D9083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F1890B-FBF9-4DAB-90F8-5EA0891D9083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D9FE1C-98DE-40A2-ADEE-7BA8CF14A8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D9FE1C-98DE-40A2-ADEE-7BA8CF14A8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D9FE1C-98DE-40A2-ADEE-7BA8CF14A8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D9FE1C-98DE-40A2-ADEE-7BA8CF14A8CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FilesSizeReader.Interface
+namespace Model
 {
-	public interface IFileManager
-	{
-		void ReadFile();
-		void WriteFile();
-	}
+    public class Class1
+    {
+    }
 }

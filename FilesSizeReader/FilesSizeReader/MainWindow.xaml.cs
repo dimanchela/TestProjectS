@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Forms;
+using ViewModel;
 
 namespace FilesSizeReader
 {
@@ -20,9 +10,34 @@ namespace FilesSizeReader
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		FileViewModel _viewModel;
 		public MainWindow()
 		{
 			InitializeComponent();
+		}
+
+		private void btnOpen_Click(object sender, RoutedEventArgs e)
+		{
+			try
+			{
+				FolderBrowserDialog folderDialog = new FolderBrowserDialog();
+
+				if (folderDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+				{
+					lbPath.Content = folderDialog.SelectedPath;
+					_viewModel.SetPath = folderDialog.SelectedPath;
+				}
+			}
+			catch (Exception ex) 
+			{
+				System.Windows.Forms.MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+
+		private void btnStart_Click(object sender, RoutedEventArgs e)
+		{
+			btnOpen.IsEnabled = btnStart.IsEnabled = false;
+			_viewModel.StartWorkerWithBinaryFiles();
 		}
 	}
 }

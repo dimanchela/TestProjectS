@@ -1,0 +1,4 @@
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ThreadWorker\bin\Debug\ThreadWorker.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ThreadWorker\bin\Debug\ThreadWorker.pdb
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ThreadWorker\obj\Debug\ThreadWorker.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ThreadWorker\obj\Debug\ThreadWorker.pdb

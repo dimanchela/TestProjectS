@@ -1,0 +1,4 @@
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\Models\bin\Debug\Models.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\Models\bin\Debug\Models.pdb
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\Models\obj\Debug\Models.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\Models\obj\Debug\Models.pdb

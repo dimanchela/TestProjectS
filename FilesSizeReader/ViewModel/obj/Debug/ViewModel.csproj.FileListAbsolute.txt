@@ -1,0 +1,8 @@
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\bin\Debug\ViewModel.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\bin\Debug\ViewModel.pdb
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\obj\Debug\ViewModel.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\obj\Debug\ViewModel.pdb
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\bin\Debug\Models.dll
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\bin\Debug\Models.pdb
+d:\C#\Projects\WPF\TestProjectS\FilesSizeReader\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
